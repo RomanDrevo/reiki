@@ -1,0 +1,12 @@
+/*
+Theme Name:Twenty Sixteen Child;
+Description: This is
+Author: Roman S
+Template: twentysixteen
+Version: 0.1
+ */
+
+body{
+    direction:rtl;
+    unicode-bidi:embed;
+}

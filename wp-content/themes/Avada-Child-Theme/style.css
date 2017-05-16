@@ -1,0 +1,292 @@
+*{font-family: 'Assistant', sans-serif}
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Assistant:200,300,400&subset=hebrew');
+
+body{
+    /*font-family: 'Assistant', sans-serif!important;*/
+    text-align: right;
+    background: green;
+    /*font-weight: 200;*/
+}
+
+.content-box-heading{
+    /*font-family: 'Assistant', sans-serif!important;*/
+}
+
+.content-container p{
+    /*font-family: 'Assistant', sans-serif!important;*/
+}
+
+/*.navbar-default{*/
+    /*margin-bottom: 0!important;*/
+/*}*/
+
+/*.navbar-nav {*/
+    /*float:none;*/
+    /*margin:0 auto;*/
+    /*display: block;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.navbar-nav > li {*/
+    /*display: inline-block;*/
+    /*float: none;*/
+    /*padding-right: 18px;*/
+    /*padding-left: 20px;*/
+/*}*/
+
+/*.navbar-nav {*/
+	/*border-top: 2px solid black;*/
+	/*border-bottom: 2px solid black;*/
+/*}*/
+
+
+.image {
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
+
+.love {
+    position: absolute;
+    width: 100%;
+    left: -5px;
+    top: -12px;
+    color: white!important;
+}
+
+.diana{
+    position: absolute;
+    width: 100%;
+    right: 814px;
+    top: 528px;
+    color: white!important;
+}
+
+.reiki-span{
+    position: absolute;
+    color: white!important;
+    left: 908px;
+    top: 46px;
+    font-size: 15px;
+}
+
+#toTop{
+    display: none;
+}
+
+#content {
+    width: 100%!important;
+    float: none!important;
+    min-height: 1px;
+}
+
+.footer{
+    background: #A260E8;
+    color: #fff;
+    text-align: center!important;
+    padding:15px;
+}
+
+a{
+    border: none!important;
+}
+
+.bg-img{
+    height: 535px;
+    padding: 0 80px 0 80px;
+}
+
+
+.reiki-title{
+    color: white;
+}
+
+#main {
+    padding-top: 0px!important;
+    padding-bottom: 40px;
+}
+
+.fusion-copyright-notice{
+    text-align: center;
+}
+
+.fusion-fullwidth .fullwidth-box .nonhundred-percent-fullwidth{
+    padding-top: 0!important;
+}
+
+.content-container p{
+    /*padding-left: 40px;*/
+}
+
+
+.fusion-content-boxes.content-boxes-icon-on-top .heading {
+    /* text-align: center; */
+    text-align: right!important;
+}
+
+.fusion-column-wrapper p {
+    padding-left: 20px;
+}
+
+#menu-reiki-menu .fusion-middle-logo-menu-logo.fusion-logo:nth-child(4){
+    border:1px dashed blue;
+    display: none;
+}
+
+
+/*icons*/
+#pure .heading.heading-with-icon.icon-right .image img{
+    /*width: 14%;*/
+}
+
+.heading.icon-left{
+    margin-top: 16px!important;
+}
+
+.fusion-content-boxes.content-boxes.columns.row.fusion-columns-1.fusion-columns-total-1.fusion-content-boxes-6.content-boxes-icon-on-top.content-right.reiki-block{
+    margin-bottom: -12px!important;
+}
+
+.fusion-content-boxes.fusion-columns-1 .fusion-column {
+    margin-bottom: 0px!important;
+}
+
+.whats-new{
+    margin-top:-24px!important;
+}
+
+#main .fullwidth-box .fusion-row {
+    padding-left: 5px;
+    padding-right: 20px!important;
+}
+
+.col.content-wrapper.link-area-link-icon.link-type-text.icon-hover-animation-fade .content-container p {
+    margin-top: -9px!important;
+    margin-bottom: -13px;
+    /*font-family: 'Assistant'!important;*/
+    /*font-size: 36px;*/
+    /*line-height: 41px;*/
+
+}
+
+.fusion-footer-copyright-area {
+    background-color: #5b25a9!important;
+    border-color: #4b4c4d;
+    border-top-width: 1px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
+.fusion-copyright-notice {
+    color: #ffffff;
+    font-size: 18px!important;
+}
+
+.fusion-copyright-notice{
+    letter-spacing: 1px;
+}
+
+.fusion-mobile-nav-holder{
+    float: right;
+}
+
+#menu-reiki-menu li{
+    text-align: right;
+}
+
+.whats-new p {
+    margin-top: -22px!important;
+    margin-bottom: 20px;
+}
+
+.bg-img{
+    font-family: 'Assistant', sans-serif!important;
+}
+/*iPad Pro*/
+@media (max-width: 1025px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        /*font-family: 'Assistant', sans-serif!important;*/
+    }
+
+    .content-box-heading {
+        /*font-family: 'Assistant', sans-serif!important;*/
+    }
+
+    .bg-img .col.content-wrapper.link-area-link-icon.icon-hover-animation-fade{
+        /*padding-left: 177px;*/
+        /*padding-right: 164px;*/
+        background-color: rgba(255,255,255,0);
+        /*font-family: 'Assistant', sans-serif!important;*/
+        margin-right: -3%;
+    }
+}
+
+/*ipad*/
+@media (max-width: 769px){
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .bg-img .col.content-wrapper.link-area-link-icon.icon-hover-animation-fade:nth-child(1){
+        padding-left: 0;
+        padding-right: 0;
+        background-color: rgba(255,255,255,0);
+        /*font-family: 'Assistant'!important;*/
+
+    }
+}
+
+/*iPhone 6Plus*/
+@media(max-width: 415px){
+    .fusion-fullwidth.fullwidth-box.fusion-parallax-none.bg-img.hundred-percent-fullwidth{
+        background-color: rgba(255,255,255,0);
+        background-image: url(http://localhost/wordpress/wp-content/uploads/2017/05/main_image_mobile_600x800.png)!important;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        padding-top: 0px;
+        padding-right: 30px;
+        padding-bottom: 0px;
+        padding-left: 30px;
+
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        /*font-family: 'Assistant'!important;*/
+
+
+    }
+
+    .bg-img .col.content-wrapper.link-area-link-icon.icon-hover-animation-fade{
+        /*padding-left: 177px;*/
+        /*padding-right: 164px;*/
+        background-color: rgba(255,255,255,0);
+        /*font-family: 'Assistant', sans-serif!important;*/
+        margin-right: -10%;
+    }
+
+    .bg-img .content-container p:nth-child(2){
+        text-align: left;
+        margin-top: 390px;
+        margin-left: -30px;
+    }
+}
+
+/*iPhone 6*/
+@media(max-width: 376px){
+    .bg-img .heading.icon-left .content-box-heading{
+        font-size: 48px!important;
+        line-height: 61px;
+    }
+}
